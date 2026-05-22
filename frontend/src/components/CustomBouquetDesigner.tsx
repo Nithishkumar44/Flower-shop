@@ -128,8 +128,8 @@ export default function CustomBouquetDesigner() {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start font-sans">
       
-      {/* 2D Preview Panel */}
-      <div className="lg:col-span-5 bg-gradient-to-br from-cream-100 to-cream-50 dark:from-forest-900 dark:to-forest-950 p-8 rounded-3xl border border-forest-100 dark:border-forest-800 flex flex-col items-center justify-center sticky top-28 shadow-inner min-h-[450px]">
+      {/* Visual Preview Sticky Panel */}
+      <div className="lg:col-span-5 bg-white dark:bg-forest-900 border border-forest-100 dark:border-forest-800 p-6 rounded-3xl flex flex-col items-center shadow-sm lg:sticky lg:top-28">
         <div className="relative w-44 h-44 rounded-full bg-white/60 dark:bg-forest-900 flex items-center justify-center text-6xl shadow-md border border-cream-200/50">
           {selectedWrap.image}
           <div className="absolute inset-0 flex items-center justify-center text-4xl mt-6">
